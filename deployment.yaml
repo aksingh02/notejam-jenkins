@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: aks0207/notejam:v2
+          image: aks0207/notejam-jenkins:v1
           ports:
             - containerPort: 3000
           imagePullPolicy: Always
